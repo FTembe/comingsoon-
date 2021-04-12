@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>coming soon</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="section">
+		<div class="content">
+			<div class="logo" style="display: flex; justify-content: center; margin-bottom: 1rem ">
+				<img src="img/logo.png" alt="abc-eventos"style="width: 50%; max-width: 80%">
+			</div>
+			<div class="countdown "></div>
+		</div>
+	</div>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/dscountdown.js"></script>
+	<script>
+			jQuery(document).ready(function($){
+				
+				$('.countdown').dsCountDown({
+					endDate: new Date("april 28, 2021 23:59:00")
+				});
+				
+				
+				
+			});
+		</script>
+</html>

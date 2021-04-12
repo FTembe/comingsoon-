@@ -1,0 +1,70 @@
+/*
+	created at: 02-06-2020
+	author:Francisco Tembe
+	email: franciscojtembe@gmail.com
+*/
+/*RESET*/
+html,body{
+    width: 100%;
+    height:100vh;
+    padding: 0px; 
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+/*END RESET*/
+
+body{
+background-color: #000;
+}
+.section{
+	    height:100vh;
+}
+.content{  height:100vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+/*CLOCK*/
+.dsCountDown{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	}
+
+.dsCountDown.ds-white {
+	color: #fff;
+
+
+}
+.ds-white .ds-element {
+	
+	margin-right: 15px;
+	font-size: 1.2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	min-width: 8%;
+	padding: 3%;
+	height: 10%;
+	max-height: 100%;
+	border-radius: 4px;
+}
+.dsCountDown.ds-white > .ds-element.ds-element-seconds {
+	margin-right: 0;
+	
+}
+
+@media screen and (max-width:600px) {
+.ds-white .ds-element {
+		font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+
+
+	
+}
+
+}
